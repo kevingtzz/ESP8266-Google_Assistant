@@ -2,13 +2,13 @@
 #include<Adafruit_MQTT.h>
 #include<Adafruit_MQTT_Client.h>
 
-#define WIFI_SSID "Chanel"
-#define WIFI_PASS "43453892"
+#define WIFI_SSID "<YOUR SSID>"
+#define WIFI_PASS "<YOUR WIFI PASSWORD>"
 
 #define MQTT_SERV "io.adafruit.com"
 #define MQTT_PORT 1883
-#define MQTT_NAME "kevingtzz"
-#define MQTT_PASS "27a053630f9e411ebb3a42dfdb93abf9"
+#define MQTT_NAME "<YOUR ADAFRUIT.IO USER NAME>"
+#define MQTT_PASS "<YOUR AIO KEY>"
 
 #define WiFi_LED D4
 #define greenpin D0
